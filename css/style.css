@@ -1,0 +1,57 @@
+nav {
+    background-color: #EDCBA8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    height: 20vh;
+   
+}
+nav h1{
+    color: rgb(56, 79, 128);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-1{
+    background-color: #242424;
+    color: white;
+    padding: 15px;
+    margin-right: 1rem;
+}
+
+
+#nav-items {
+    display: flex;
+    gap: 25px;
+}
+
+.list-items {
+    list-style-type: none;
+}
+
+
+header {
+    background-image: url(../assets/images/church3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.main-section{
+    text-align: center;
+    margin-top: 10rem;
+    color: aqua;
+   
+} 
+.main-section b{
+    background-color: #242424;
+}
