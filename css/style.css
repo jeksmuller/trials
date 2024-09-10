@@ -139,7 +139,11 @@ header {
     padding-right: 30vh;
     height: 1.5;
 }
-.text-container2 a{
+.text-container2 i{
     padding: 20px;
     color: #130D0D;
+}
+.section-3{
+    display: flex;
+  
 }
