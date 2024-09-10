@@ -5,9 +5,10 @@ nav {
     align-items: center;
     padding-left: 20px;
     height: 20vh;
-   
+
 }
-nav h1{
+
+nav h1 {
     color: rgb(56, 79, 128);
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -20,7 +21,7 @@ nav a {
     font-weight: bold;
 }
 
-.button-1{
+.button-1 {
     background-color: #242424;
     color: white;
     padding: 15px;
@@ -46,12 +47,75 @@ header {
     height: 100vh;
 
 }
-.main-section{
+
+.main-section {
     text-align: center;
     margin-top: 10rem;
-    color: aqua;
-   
-} 
-.main-section b{
+    color: white;
+    text-shadow: 2px 3px 8px #384F80;
+}
+
+.main-section button {
+    background-color: rgba(0, 0, 0, 0.103);
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.main-container {
+    width: 50%;
+    margin: auto;
+
+
+}
+
+.flex-container {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 3rem;
+
+}
+
+.text-container {
+    width: 100%;
+    margin-right: 100px;
+    margin-left: 15px;
+    padding-top: 50px;
+    gap: 30px;
+
+}
+
+.text-container button {
     background-color: #242424;
+    color: white;
+    padding: 15px;
+    margin-left: 2rem;
+}
+
+.image-container {
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.image-container img {
+    width: 120%;
+}
+.flex-home{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    background-color: rgba(128, 128, 128, 0.185);
+}
+.mid-section{
+    text-align: center;
+}
+.mid-section h4{
+    color: red;
+    font-size: 30px;
+}
+.mid-section h1{
+    
 }
