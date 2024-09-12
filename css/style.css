@@ -303,6 +303,7 @@ header {
     grid-template-rows: ;
     grid-column-gap: 10px;
     grid-row-gap: 50px;
+    padding-bottom: 4rem;
 }
 
 .footer-gallery img {
@@ -319,9 +320,25 @@ header {
     grid-template-rows: ;
     grid-column-gap: 50px;
     grid-row-gap: 50%;
-    background-color: #7542A9;
+    background-color: #7642a94b;
     color: rgb(32, 7, 7);
+    padding-top: 1rem;
 }
 .location{
     margin-left: 2rem;
 }
+.footer-gallery1 button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-left: 100vh;
+    padding-left: 10px;
+    padding-top: 15px
+     background-color: ; 
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+.footer-gallery1 button:hover {
+    background-color: #D7C7E6; 
+    color: white;
+  }
