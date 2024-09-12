@@ -211,11 +211,12 @@ header {
 }
 
 .text-container3 button {
-    background-color: #4e192f00;
-    border: none;
+    background-color: #4e192f11;
+    border: 5px;
     font-weight: bold;
     margin-top: 2rem;
     color: #D68B34;
+    border-radius: 10px;
 }
 
 
@@ -232,11 +233,12 @@ header {
 }
 
 .text-container4 button {
-    background-color: #4e192f00;
-    border: none;
+    background-color: #4e192f13;
+    border: 5px;
     font-weight: bold;
     margin-top: 2rem;
     color: #D68B34;
+    border-radius: 10px;
 }
 
 .image-container4 {
@@ -255,7 +257,7 @@ header {
 }
 
 .footer-1 {
-    background-color: #FD821A;
+    /* background-color: #FD821A; */
 }
 
 .footer-2 {
@@ -273,6 +275,7 @@ header {
 
 .footer-2 input::placeholder {
     color: white;
+    text-align: center;
 }
 .footer-2 button{
     color: #E67022;
@@ -282,4 +285,26 @@ header {
 .footer-2 h3{
     color: white;
   text-indent: center;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline; 
+    color: #007997;
+    
+}
+.footer-gallery{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: ;
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+}
+.footer-gallery img{
+    width: 100%;
+    border: 2px solid #FD821A;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+   
 }
