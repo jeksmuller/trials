@@ -25,22 +25,24 @@ nav a {
     font-size: 20px;
     font-weight: bold;
     text-decoration: solid 10px;
- }
-.nav-button{
+}
+
+.nav-button {
     background-color: #242424;
     color: white;
     padding: 10px;
     color: white;
-     
-    
+    margin-right: 10px;
+
+
 }
 
 .button-1 {
-  background-color: #242424;
+    background-color: #242424;
     color: white;
     padding: 15px;
-    
-    
+
+
 }
 
 
@@ -126,16 +128,21 @@ header {
     grid-template-rows: 1fr;
     grid-column-gap: 50px;
     grid-row-gap: 0px;
-    background-color: rgba(128, 128, 128, 0.185);
-    margin-left: 15px;
-    margin-right: 15px;
-}
-.flex-home1{
-    text-align: center;
+    background-color: rgba(128, 128, 128, 0.144);
     margin-left: 15px;
     margin-right: 15px;
 
 }
+
+.flex-home1 {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #8aacb418;
+}
+
+.about1 {
+    /* background-image: url(../assets/images/logo_hci-removebg-preview.png); */
 }
 
 .mid-section {
@@ -341,29 +348,59 @@ header {
     color: rgb(32, 7, 7);
     padding-top: 1rem;
 }
-.location{
+
+.location {
     margin-left: 2rem;
 }
-.footer-gallery1 button{
+
+.footer-gallery1 button {
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
     margin-left: 100vh;
     padding-left: 10px;
-    padding-top: 15px
-     background-color: ; 
+    padding-top: 15px background-color:;
     border-radius: 15px;
     transition-duration: 0.4s;
 }
+
 .footer-gallery1 button:hover {
-    background-color: #D7C7E6; 
+    background-color: #D7C7E6;
     color: white;
-  }
-  .new-image{
+}
+
+.new-image {
     width: 150%;
     margin-left: 10%;
     margin-bottom: 5rem;
     margin-top: 3rem;
-  }
-  
-  
+}
+
+* #CONTACT */ .mapbox {
+    height: 380px;
+    border-radius: 18px;
+}
+
+.input-wrapper {
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.form-input {
+    padding: 15px 20px;
+}
+
+textarea.form-input {
+    margin-bottom: 30px;
+}
+
+.form-btn {
+    --fs-6: 16px;
+    padding: 16px 20px;
+}
+
+.form-btn ion-icon {
+    font-size: 18px;
+}
+
+}
